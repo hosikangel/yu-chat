@@ -1,10 +1,4 @@
-{
-  "name": "linguatalk",
-  "private": true,
-  "workspaces": ["web", "server"],
-  "scripts": {
-    "dev:web":    "npm run dev --workspace=web",
-    "dev:server": "npm run dev --workspace=server",
-    "build:web":  "npm run build --workspace=web"
-  }
+json{
+  "name": "yu-talk-root",
+  "private": true
 }
