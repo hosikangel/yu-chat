@@ -1,0 +1,35 @@
+node_modules/
+.next/
+dist/
+build/
+
+# 환경변수 (절대 커밋 금지!)
+.env
+.env.local
+.env.production
+
+# 인증서
+certs/
+*.pem
+*.key
+*.crt
+
+# 로그
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# React Native
+ios/Pods/
+android/.gradle/
+android/app/build/
+*.keystore
+!debug.keystore
+
+# 에디터
+.vscode/
+.idea/
+yu-chat/
